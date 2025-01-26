@@ -21,7 +21,7 @@ body {
     overflow-y: auto; /* Allow scrolling if the content is too long */
     transition: all 0.3s ease;
     box-sizing: border-box;
-    max-height: 500px; /* Set a max height for scrolling */
+    max-height: 260px; /* Set a max height for scrolling */
 }
 
 .widget {
@@ -60,6 +60,7 @@ body {
 /* Quote box */
 .quote-box {
     margin-bottom: 20px;
+    text-align: left;
 }
 
 /* Styling for the quote text */
