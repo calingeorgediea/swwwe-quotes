@@ -1,0 +1,107 @@
+/* General body settings */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Container to center everything */
+.container {
+    text-align: center;
+    background-color: #1e1e1e;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 320px;  /* Adjusted for better fit */
+    height: auto;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+/* Quote box */
+.quote-box {
+    margin-bottom: 20px;
+}
+
+/* Styling for the quote text */
+.quote-text {
+    font-size: 1.3em; /* Slightly smaller font size */
+    font-weight: 400;
+    color: #e0e0e0;
+    margin: 15px 0;
+    line-height: 1.5;
+    font-style: italic;
+    transition: color 0.3s ease;
+}
+
+/* Source text below the quote */
+.quote-source {
+    font-size: 1em;  /* Slightly smaller */
+    color: #9e9e9e;
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+button {
+    padding: 10px 25px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #6200ea;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #3700b3;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+/* Adding a smooth transition effect for the entire page */
+.container, .quote-box, button {
+    transition: all 0.3s ease;
+}
+
+/* Button styling */
+/* Button styling */
+button {
+    padding: 8px;
+    font-size: 1.2em;  /* Smaller font size */
+    color: #fff;
+    background-color: #6200ea;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;  /* Reduced size */
+    height: 45px; /* Reduced size */
+}
+
+button:hover {
+    background-color: #3700b3;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+button i {
+    margin: 0;
+}
+
