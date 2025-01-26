@@ -17,11 +17,10 @@ body {
     padding: 20px 30px;
     width: 100%;
     max-width: 320px;
-    height: auto;
     overflow-y: auto; /* Allow scrolling if the content is too long */
     transition: all 0.3s ease;
     box-sizing: border-box;
-    max-height: 260px; /* Set a max height for scrolling */
+    height: 260px; /* Set a max height for scrolling */
 }
 
 .widget {
