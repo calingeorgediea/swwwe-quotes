@@ -19,10 +19,12 @@ body {
     border-radius: 12px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
     width: 100%;
-    max-width: 320px;  /* Adjusted for better fit */
+    max-width: 320px;
     height: auto;
+    overflow-y: auto; /* Allow scrolling if the content is too long */
     transition: all 0.3s ease;
     box-sizing: border-box;
+    max-height: 500px; /* Set a max height for scrolling */
 }
 
 /* Quote box */
@@ -32,7 +34,7 @@ body {
 
 /* Styling for the quote text */
 .quote-text {
-    font-size: 1.3em; /* Slightly smaller font size */
+    font-size: 1.3em;
     font-weight: 400;
     color: #e0e0e0;
     margin: 15px 0;
@@ -43,7 +45,7 @@ body {
 
 /* Source text below the quote */
 .quote-source {
-    font-size: 1em;  /* Slightly smaller */
+    font-size: 1em;
     color: #9e9e9e;
     margin-bottom: 20px;
 }
@@ -69,16 +71,10 @@ button:active {
     transform: translateY(1px);
 }
 
-/* Adding a smooth transition effect for the entire page */
-.container, .quote-box, button {
-    transition: all 0.3s ease;
-}
-
-/* Button styling */
 /* Button styling */
 button {
     padding: 8px;
-    font-size: 1.2em;  /* Smaller font size */
+    font-size: 1.2em;  
     color: #fff;
     background-color: #6200ea;
     border: none;
@@ -88,8 +84,8 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 45px;  /* Reduced size */
-    height: 45px; /* Reduced size */
+    width: 45px;
+    height: 45px;
 }
 
 button:hover {
